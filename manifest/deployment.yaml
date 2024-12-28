@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: majid359/solarsystem:$GIT_COMMIT
+      - image: majid359/solarsystem:92064d946f4547bbdccd92ce5c06634fbdd57464
         imagePullPolicy: Always
         name: solar-system
         ports:
